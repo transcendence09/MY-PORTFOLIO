@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chibueze Ughanze | GitHub portfolio page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,400" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      
+      h1, h2, h3, h4, h5{
+        color:#4A4E69;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      p {
+        color: #4A4E69;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      section {
+        width:100%;
+        margin: 40px 0;
+        padding: 0 5%;
+      }
+
+      .section-heading {
+        text-transform: uppercase;
+        font-size: 1.6em;
+      }
+
+      hr {
+        max-width:300px;
+      }
+
+
+      .navbar.navbar-default {
+        background: none;
+        border: none; 
+        z-index: 1;
+      }
+
+
+      .navbar-default .navbar-text {
+        color:white;
+      }
+
+
+      .row-header {
+        padding: 10vh 10vw 0 10vw;
+        background-image: url('https://mydevportfolio.sfo2.cdn.digitaloceanspaces.com/dublin-sq.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom:100px;
+        display: flex;
+        align-items: center
+      }
+
+      .header-col {
+        position: relative;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+        bottom: -60px;
+        padding: 30px 0;
+        max-width:400px;
+        margin:auto;
+      }
+
+      .profile-pic {
+        border-radius:50%;
+        width:40%;
+        max-width: 200px;
+      }
+
+      .header-col h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+
+      .email {
+        margin-top:20px;
+      }
+
+      .email .glyphicon {
+        margin-right:5px;
+      }
+
+
+      .project-img-col img {
+        max-width: 250px;
+        margin: auto;
+      }
+
+
+      .list-container {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .techlogo {
+        width:140px;
+      }
+
+      .tech-item {
+        margin:10px;
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .tech-item-text {
+        margin-top:10px;
+      }
+
+      .tech-item i {
+        font-size:5em;
+      }
+
+      .tech-tool-item {
+        margin-left:15px;
+        display: inline-block;;
+      }
+
+      .row-footer {
+        padding: 0vh 10vw 10vw 10vw;
+        margin-top:100px;
+        background-image: url('https://mydevportfolio.sfo2.cdn.digitaloceanspaces.com/dublin-sq.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .footer-col {
+        position: relative;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+        top: -60px;
+        padding: 50px 0;
+        max-width:400px;
+        margin:auto;
+      }
+
+      .btn.outline {
+        background: none;
+        padding: 12px 22px;
+      }
+
+      .btn-primary.outline {
+        border: 2px solid #0099cc;
+        color: #0099cc;
+        border:0;
+      }
+
+      .linkedin-btn {
+        background-color: white;
+        width:140px;
+        box-shadow: 0px 2px 5px 1px lightgrey;
+        padding: 12px;
+        border-radius: 5px;
+      }
+
+      .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+        color: #33a6cc;
+        border-color: #33a6cc;
+      }
+      .btn-primary.outline:active, .btn-primary.outline.active {
+        border-color: #007299;
+        color: #007299;
+        box-shadow: none;
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <div class="container-fluid">
+
+
+    <!-- Intro, name, tagline -->
+    <div class="row text-center row-header">
+      <div class="col-xs-12">
+        <div class="header-col">
+          <img src="https://avatars0.githubusercontent.com/u/40109212?s&#x3D;400&amp;u&#x3D;4ef39e869d80819d3a5110b6c66dd30a95c4acfd&amp;v&#x3D;4" alt="profile pic" class="img-responsive profile-pic center-block">
+          <h1>Chibueze Ughanze</h1>
+          <h2>Front end web developer. Detail-oriented,
+proficient in the use of latest web technologies. HTML5, CSS3,
+BOOTSTRAP4, JavaScript, jQuery and Git version control to build single
+web applications. Graduated top 10% of my class with a Bachelor&#x27;s
+degree from the department of Electrical and Computer
+Engineering.</h2>
+          <a href="mailto:dominicughanze348@gmail.com" class="email"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>dominicughanze348@gmail.com</a>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+    <!-- Projects -->
+    <section style="margin-top:0">
+
+      <div class="row">
+        <div class="col xs-12">
+          <h1 class="text-center section-heading">Work</h1>
+        </div>
+      </div>
+
+
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            
+            <div class="col-lg-8">
+              <img src="https://github.com/transcendence09/Demo-Project-Using-Bootstrap-4-/blob/master/img/desk.png?raw&#x3D;true" alt="" class="img-responsive center-block">
+            </div>
+
+            <div class="col-lg-4">
+              <h3>Demo-Project-Using-Bootstrap-4-</h3>
+              <p>Demo project adding various CSS styles eg Parallax.</p>
+                <p><a href="https://github.com/transcendence09/Demo-Project-Using-Bootstrap-4-">Launch</a></p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            
+            <div class="col-lg-8">
+              <img src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png" alt="" class="img-responsive center-block">
+            </div>
+
+            <div class="col-lg-4">
+              <h3>Pixel-Project-Google-Udacity</h3>
+              <p>It was a project to be completed for the google udacity scholarship certificate</p>
+                <p><a href="https://github.com/transcendence09/PixelProjectGoogleUdacity">Launch</a></p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+              <i class="devicon-javascript-plain-wordmark colored"></i>
+              <i class="devicon-jquery-plain-wordmark colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            
+            <div class="col-lg-8">
+              <img src="https://github.com/transcendence09/REAL_ESTATE-AD-SITE/blob/master/img/%20(4).jpg?raw&#x3D;true" alt="" class="img-responsive center-block">
+            </div>
+
+            <div class="col-lg-4">
+              <h3>REAL_ESTATE-AD-SITE</h3>
+              <p>I built this site to try to advertise the real estate properties i am currently marketing. It&#x27;s in the properties-card-display stage, to allow viewers see more details of the building that might interest them.</p>
+                <p><a href="https://github.com/transcendence09/REAL_ESTATE-AD-SITE">Launch</a></p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            
+            <div class="col-lg-8">
+              <img src="https://github.com/transcendence09/FCC-PROJECT-SURVEY-FORM/blob/master/depositphotos_104190032-stock-photo-office-working-table.jpg?raw&#x3D;true" alt="" class="img-responsive center-block">
+            </div>
+
+            <div class="col-lg-4">
+              <h3>FCC-PROJECT-SURVEY-FORM</h3>
+              <p>Survey Form Project FreeCodeCamp.</p>
+                <p><a href="https://github.com/transcendence09/FCC-PROJECT-SURVEY-FORM">Launch</a></p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+            
+            <div class="col-lg-8">
+              <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="" class="img-responsive center-block">
+            </div>
+
+            <div class="col-lg-4">
+              <h3>Tribute-Page-FCC-Project</h3>
+              <p>Tribute Page to Dr. Norman Borlaug</p>
+                <p><a href="https://github.com/transcendence09/Tribute-Page-FCC-Project">Launch</a></p>
+            </div>
+
+            <div class="col-xs-12 text-center">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+
+    </section>
+
+
+  <hr>
+
+  <!-- Technical Experience -->
+
+
+  <hr>
+
+    <div class="row row-footer">
+      <div class="col footer-col text-center">
+        <h3>I'm available for work</h3>
+        <a href="mailto:dominicughanze348@gmail.com" class="email"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>dominicughanze348@gmail.com</a>
+      </div>
+    </div>
+
+  </div> <!-- end container -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+
+  </body>
+</html>
